@@ -50,3 +50,11 @@ Bootstrap is a front-end framework that helps ease formatting of buttons, tables
 ## JQuery
 
 JQuery is used in the front-end and  makes it easier to perform action on an item. The format follows $(selector).action, such as $(document).ready(function(){ with a method inside the curly brackets. 
+
+## Node
+
+Node runs asychronously on the terminal and generates a dynamic page content. It runs in the termninal at the project level, when entering node server.js. Back-end console logs display on the terminal and html console logs appear in the html page. Node interfaces with the sql database. 
+
+## Heroku 
+Heroku is deployed allowing for html pages to be loaded in the Heroku environment. 
+The connection.js file has been updated to connect to connection = mysql.createConnection(process.env.JAWSDB_URL).
